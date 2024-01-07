@@ -10,7 +10,8 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "-lstdc++"
+                "-lstdc++",
+                "-lm"
             ],
             "options": {
                 "cwd": "${fileDirname}"
